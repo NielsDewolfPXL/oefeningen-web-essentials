@@ -1,0 +1,26 @@
+thead, tfoot{
+    background: #27426d;
+    border-color: black;
+}
+
+table{
+    color: white;
+    border: 20px solid #c7ced8;
+    margin: 20px 20px 20px 20px;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(2n){
+    background: #4f8cef;
+    border-color: black;
+}
+
+tbody tr:nth-child(2n+1){
+    background: #6facff;
+    border-color: black;
+}
+
+table tr {
+    font-family: roboto;
+    text-align: center;
+}
